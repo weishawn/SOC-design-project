@@ -1,0 +1,114 @@
+$date
+	Sun Oct 26 01:22:46 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module shift_register_tb $end
+$var wire 1 ! serial_out $end
+$var wire 8 " q [7:0] $end
+$var reg 1 # clk $end
+$var reg 1 $ load $end
+$var reg 8 % parallel_in [7:0] $end
+$var reg 1 & reset $end
+$var reg 1 ' serial_in $end
+$var reg 1 ( shift_en $end
+$scope module DUT $end
+$var wire 1 # clk $end
+$var wire 1 $ load $end
+$var wire 8 ) parallel_in [7:0] $end
+$var wire 8 * q [7:0] $end
+$var wire 1 & reset $end
+$var wire 1 ' serial_in $end
+$var wire 1 ( shift_en $end
+$var wire 1 ! serial_out $end
+$var reg 8 + reg_sh [7:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+bx +
+bx *
+b0 )
+0(
+0'
+0&
+b0 %
+0$
+0#
+bx "
+x!
+$end
+#5000
+1#
+#10000
+0#
+1&
+#15000
+0!
+b0 "
+b0 *
+b0 +
+1#
+#20000
+0#
+1$
+b10110101 %
+b10110101 )
+0&
+#25000
+1!
+b10110101 "
+b10110101 *
+b10110101 +
+1#
+#30000
+0#
+1'
+1(
+0$
+#35000
+0!
+b11011010 "
+b11011010 *
+b11011010 +
+1#
+#40000
+0#
+#45000
+1!
+b11101101 "
+b11101101 *
+b11101101 +
+1#
+#50000
+0#
+#55000
+0!
+b11110110 "
+b11110110 *
+b11110110 +
+1#
+#60000
+0#
+#65000
+1!
+b11111011 "
+b11111011 *
+b11111011 +
+1#
+#70000
+0#
+0(
+#75000
+1#
+#80000
+0#
+#85000
+1#
+#90000
+0#
